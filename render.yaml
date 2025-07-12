@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: putu-flask-app
+    env: python
+    buildCommand: ""
+    startCommand: "python putu.py"
